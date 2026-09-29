@@ -1,0 +1,40 @@
+content {
+    display: flex;
+}
+
+.content main {
+    flex: 1;
+    margin-left: 10px;
+}
+
+nav,
+aside,
+main,
+footer {
+    border: 2px solid #000;
+    margin-bottom: 10px;
+}
+
+nav {
+    padding: 20px;
+}
+
+nav>a+a {
+    margin-left: 20px;
+}
+
+h2 {
+    animation: 2s highlight;
+    margin: 0;
+    padding: 20px;
+}
+
+@keyframes highlight {
+    from {
+        background-color: #ff0;
+    }
+
+    to {
+        background-color: transparent;
+    }
+}
