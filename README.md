@@ -2,7 +2,7 @@
 
 Шаблон для проектов `FastAPI`+`Vue3` с авторизацией:
 
-* `FastAPI`-приложение на базе [https://fastapi.tiangolo.com/tutorial/response-model/].
+* `FastAPI`-приложение на базе https://fastapi.tiangolo.com/tutorial/response-model/.
 * `Vue3`-приложение c `Orval` и интеграцией `Vue-Query` для автогенерации кода для запросов по `OpenApi`-спецификации от `FastAPI`.
 
 Компоненты реализованы независимо, но на странице обновляют друг друга динамически:
